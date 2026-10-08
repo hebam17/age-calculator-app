@@ -1,0 +1,91 @@
+/* FONTs */
+/* ==========================================================================
+   ITFO FONT FAMILY - COMPLETE SETUP BY UPLOAD ORDER
+   ========================================================================== */
+
+/* 1. Light - Regular Upright */
+@font-face {
+  font-family: "ITFO";
+  src: url("../assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Book / Regular - Base Upright */
+@font-face {
+  font-family: "ITFO";
+  src: url("../assets/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 3. Bold - Heavy Upright */
+@font-face {
+  font-family: "ITFO";
+  src: url("../assets/fonts/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 4. Light Italic - Match for Light Weight */
+@font-face {
+  font-family: "ITFO";
+  src: url("../assets/fonts/Poppins-Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 5. Book Italic / Regular Italic - Match for Base Weight */
+@font-face {
+  font-family: "ITFO";
+  src: url("../assets/fonts/Poppins-BoldItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 6. Bold Italic / Heavy Italic - Match for Bold Weight */
+@font-face {
+  font-family: "ITFO";
+  src: url("../assets/fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* VARIABLES */
+:root {
+  --mobile-breakpoint: 375px;
+  --desktop-breakpoint: 1440px;
+  --primary-purple: hsl(259, 100%, 65%);
+  --primary-red: hsl(0, 100%, 67%);
+  --white: hsl(0, 100%, 100%);
+  --gray-100: hsl(0, 0%, 94%);
+  --gray-200: hsl(0, 0%, 86%);
+  --gray-500: hsl(0, 1%, 44%);
+  --gray-100: hsl(0, 0%, 0%);
+  --text-font-size: 32px;
+}
+
+/* For referance */
+p {
+  font-family: "ITFO", sans-serif;
+  font-weight: 400;
+}
+
+.icon-button {
+  padding: 1rem;
+}
+
+.button-icon {
+  width: 1.25em; /* Scales perfectly relative to the button's font size */
+  height: 1.25em;
+  fill: none;
+  stroke: white; /* Inherits text color (white), and shifts smoothly on hover */
+  stroke-width: 6; /* Adjust this number to make the lines thicker or thinner */
+  stroke-linecap: round;
+}
